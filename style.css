@@ -1,0 +1,61 @@
+@import url(//db.onlinewebfonts.com/c/21a068116c87e00c293a0372c1ca070a?family=Shlop);
+
+body {
+  color: #000080;
+}
+#map {
+  width: 1200px;
+  height: 850px;
+}
+.legend {
+  position: fixed;
+  right: 10%;
+  top: 5%;
+  z-index: 2;
+  color: #000080;
+  text-align: center;
+  background-color: white;
+  border: 5px solid #000080;
+  border-radius: 5%;
+}
+.symbol {
+  width: 1rem;
+  border: 1px solid black;
+}
+#overlay {
+  position: fixed;
+  width: 95%;
+  height: 100%;
+  padding: 4rem;
+  font-size: 2.5rem;
+  color: white;
+  background-color: #000080;
+  opacity: 85%;
+  z-index: 3;
+}
+#exit-button {
+  float: right;
+}
+.hide {
+  display: none;
+}
+.blood {
+  font-family: "Shlop", sans-serif;
+  color: red;
+  text-decoration: none;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+}
+.panel {
+  width: 40rem;
+  display: flex;
+}
+table {
+  margin: 2rem;
+}
+th,
+td {
+  padding: 0.5rem;
+}
